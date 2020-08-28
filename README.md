@@ -1,6 +1,6 @@
 # Utopia Framework
 
-![utopia](https://user-images.githubusercontent.com/54115104/83402597-bff21700-a40f-11ea-852f-ab433356f8b7.jpeg)
+<h3 align="center"><img src="https://user-images.githubusercontent.com/54115104/91619954-3e227300-e997-11ea-8940-a39824f6d69e.png" alt="logo" height="250px"></h3>
 
 <p align="center">
     <a href="https://github.com/entynetproject">
