@@ -3,7 +3,7 @@
 <h3 align="center"><img src="https://user-images.githubusercontent.com/54115104/91619954-3e227300-e997-11ea-8940-a39824f6d69e.png" alt="logo" height="250px"></h3>
 
 <p align="center">
-    <a href="https://github.com/EntySec">
+    <a href="http://entysec.netlify.app/">
     <img src="https://img.shields.io/badge/EntySec-Ivan%20Nikolsky-blue.svg">
   </a> 
   <a href="https://github.com/EntySec/utopia/releases">
