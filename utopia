@@ -55,11 +55,11 @@ class MyCompleter(object):
 
 core = [
     'clear',
-    'connect',
-    'disconnect',
     'exit',
     'help',
-    'update'
+    'modules',
+    'update',
+    'use'
     ]
 
 core = [x.split(' ')[0] for x in core]
@@ -127,6 +127,22 @@ def main():
                 if attack == "ssh_exec_noauth" or attack == "ssh_shell_noauth":
                     location.append('')
                     location[pwd] = ui[1]
+                    
+                    commands = [
+                    'back',
+                    'options',
+                    'run',
+                    'set'
+                    ]
+
+                    commands = [x.split(' ')[0] for x in commands]
+
+                    completer = MyCompleter(list(set(commands)))
+                    readline.set_completer_delims(' \t\n;')
+                    readline.set_completer(completer.complete)
+                    readline.parse_and_bind('tab: complete')
+                    readline.set_completion_display_matches_hook(completer.display_matches)
+                    
                     try:
                         mod = input('\033[4mutopia\033[0m(\033[1;31m'+location[pwd]+'\033[0m)> ').strip(" ")
                     except:
