@@ -130,7 +130,13 @@ def main():
                     'back',
                     'options',
                     'run',
-                    'set'
+                    'set',
+                    'clear',
+                    'exit',
+                    'help',
+                    'modules',
+                    'update',
+                    'use'
                     ]
 
                     commands = [x.split(' ')[0] for x in commands]
