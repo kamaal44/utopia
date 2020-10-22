@@ -176,7 +176,7 @@ def main():
                                         cmd = mod[2]
                                         print(I + "CMD ==> " + mod[2])
                                     else:
-                                        print(E+"Options is not found!")
+                                        print(E+"Option is not found!")
                                 else:
                                     if mod[1].lower() == "rhost":
                                         rhost = mod[2]
@@ -185,7 +185,7 @@ def main():
                                         rport = mod[2]
                                         print(I + "RPORT ==> " + mod[2])
                                     else:
-                                        print(E+"Options is not found!")
+                                        print(E+"Option is not found!")
                         elif mod[0] == "options":
                             if location[pwd] == "ssh_exec_noauth":
                                 if rhost == "":
